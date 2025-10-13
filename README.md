@@ -1,23 +1,22 @@
 Este projeto visa aprender as funcionalidades de Python, Django e Flask.
-
 Inicialmente iria realizar o treinamento da Udemy, porém devido a desatualização do material, optamos por realizar através de treinamentos via Youtube e Curso em Vídeo.
 
-###1 . ***O que é um programador?***
-Em resumo, um Programador de Sistemas é o profissional que escreve, testa e mantém o código que faz um computador ou um sistema funcionar. Ele é a ponte entre as necessidades humanas ou empresariais e a linguagem que a máquina entende.
+#### 1 . ***O que é um programador?***
+        Em resumo, um Programador de Sistemas é o profissional que escreve, testa e mantém o código que faz um computador ou um sistema funcionar. Ele é a ponte entre as necessidades humanas ou empresariais e a linguagem que a máquina entende.
 
-O trabalho envolve:
-*   *Desenvolvimento:* Criar novos programas, aplicativos, sites, sistemas operacionais ou softwares específicos usando linguagens de programação (como Python, Java, C#, JavaScript, etc.).
-*   *Análise:* Entender as necessidades de um cliente ou de uma organização e traduzi-las em soluções tecnológicas viáveis.
-*   *Testes e Depuração (Debugging):* Encontrar e corrigir falhas (bugs) no código para garantir que o sistema funcione de forma eficiente e confiável.
-*   *Manutenção:* Atualizar e aprimorar sistemas existentes para atender a novas demandas ou melhorar o desempenho e a segurança.
+        O trabalho envolve:
+        *   *Desenvolvimento:* Criar novos programas, aplicativos, sites, sistemas operacionais ou softwares específicos usando linguagens de programação (como Python, Java, C#, JavaScript, etc.).
+        *   *Análise:* Entender as necessidades de um cliente ou de uma organização e traduzi-las em soluções tecnológicas viáveis.
+        *   *Testes e Depuração (Debugging):* Encontrar e corrigir falhas (bugs) no código para garantir que o sistema funcione de forma eficiente e confiável.
+        *   *Manutenção:* Atualizar e aprimorar sistemas existentes para atender a novas demandas ou melhorar o desempenho e a segurança.
 
-Eles podem se especializar em diversas áreas, como:
-*   ***Desenvolvimento Web (Front-end ou Back-end)***
-*   ***Desenvolvimento Mobile (aplicativos para celulares e tablets)***
-*   ***Programação de Jogos***
-*   ***Sistemas Embarcados (software para carros, eletrodomésticos, máquinas industriais, etc.)***
+        Eles podem se especializar em diversas áreas, como:
+        *   ***Desenvolvimento Web (Front-end ou Back-end)***
+        *   ***Desenvolvimento Mobile (aplicativos para celulares e tablets)***
+        *   ***Programação de Jogos***
+        *   ***Sistemas Embarcados (software para carros, eletrodomésticos, máquinas industriais, etc.)***
 
-    ####1.1. **Quando e por que foi criado?**
+##### 1.1. **Quando e por que foi criado?**
 
     A história do programador está intrinsecamente ligada à história da computação, e a necessidade dessa profissão surgiu do desejo de automatizar e tornar mais rápidos os cálculos e processos complexos.
 
@@ -35,9 +34,9 @@ Eles podem se especializar em diversas áreas, como:
 
     Desde então, com o surgimento de microprocessadores nos anos 70, computadores pessoais nos anos 80 e a explosão da Internet nos anos 90, o programador deixou de ser um especialista de nicho e se tornou o motor por trás de toda a nossa infraestrutura digital.
 
-    ####1.2. ***Lógica de Programação***
+ ##### 1.2. ***Lógica de Programação***
     
-    1.2.1 ***Definição: O que é Lógica de Programação?***
+######    1.2.1 ***Definição: O que é Lógica de Programação?***
     A ***Lógica de Programação*** é o conjunto de técnicas e princípios que permite organizar ideias e sequências de instruções de forma coerente e sistemática para que o computador possa resolver um problema.
 
     Em termos simples, é a arte de pensar o passo a passo (o "como fazer") antes de começar a escrever o código (o "o que fazer").
@@ -48,7 +47,7 @@ Eles podem se especializar em diversas áreas, como:
 
     *   Um algoritmo é uma sequência finita, bem definida e não ambígua de instruções, que, quando executada, resolve um problema ou realiza uma tarefa. Pense em uma receita de bolo: os ingredientes e a ordem exata das etapas formam o algoritmo para fazer o bolo.
 
-    1.2.2 ***História: As Raízes da Lógica***
+######    1.2.2 ***História: As Raízes da Lógica***
     A lógica de programação tem raízes profundas que antecedem em muito o computador moderno:
 
     **As Origens Formais (Século IV a.C.)**
@@ -64,7 +63,7 @@ Eles podem se especializar em diversas áreas, como:
 
     *   *O Salto:* A introdução de linguagens de programação de alto nível (como FORTRAN e COBOL nos anos 50) permitiu que os programadores escrevessem instruções usando palavras-chave em inglês e notação matemática, em vez de código de máquina binário. A lógica de programação estruturada (sequência, decisão e repetição) se consolidou como a melhor prática para criar softwares confiáveis e de fácil manutenção.
 
-    1.2.3 ***Função: Por que ela é Indispensável?***
+######    1.2.3 ***Função: Por que ela é Indispensável?***
     A principal função da lógica de programação é servir como a estrutura mental para a resolução de problemas no desenvolvimento de software.
      __________________________________________________________________________
     |----------------------------------|---------------------------------------|
@@ -96,8 +95,8 @@ Eles podem se especializar em diversas áreas, como:
     |__________________________________|_______________________________________|
 
 
-    ####1.3. ***Algoritmo***
-        ####1.3.1 ***O que é um algoritmo***
+####    1.3. ***Algoritmo***
+######        1.3.1 ***O que é um algoritmo***
 
         Um algoritmo é, essencialmente, uma sequência finita e ordenada de passos que resolve um problema específico ou executa uma tarefa.
 
@@ -123,8 +122,8 @@ Eles podem se especializar em diversas áreas, como:
 
         Eles são a base teórica que permite que o software funcione.
 
-2 . Python
-    2.1. Introdução
+#### 2 . Python
+#####    2.1. Introdução
     Python é uma linguagem de programação de alto nível, interpretada e multiparadigma (suporta estilos de programação procedural, orientada a objetos e funcional).
 
     Sua principal característica é a legibilidade. A sintaxe do Python é extremamente limpa, concisa e se assemelha muito à língua inglesa, usando o recuo (indentação) para definir blocos de código, em vez de chaves ou pontos e vírgulas.
@@ -135,7 +134,7 @@ Eles podem se especializar em diversas áreas, como:
     **Rápido de Desenvolver:** Permite que os programadores criem soluções complexas com menos linhas de código.
     **Versátil (Uso Geral):** É amplamente usada em Desenvolvimento Web (Django, Flask), Ciência de Dados, Machine Learning (IA), Automação de Tarefas, Computação Gráfica e análise de Big Data.
 
-    2.2. História da Linguagem
+#####    2.2. História da Linguagem
     A história do Python começa com seu criador, Guido van Rossum, um programador holandês.
 
     ***O Nascimento (1989-1991)***
@@ -144,7 +143,7 @@ Eles podem se especializar em diversas áreas, como:
     Nome: O nome "Python" foi uma homenagem ao grupo de comédia britânico Monty Python, do qual Guido era um grande fã.
     Lançamento Oficial: A primeira versão pública, Python 0.9.0, foi lançada em fevereiro de 1991.
 
-    2.3. Necessidade e Motivações
+#####    2.3. Necessidade e Motivações
     A criação do Python surgiu da insatisfação de Guido com as linguagens existentes na época, especialmente em relação à linguagem ABC, na qual ele havia trabalhado. Guido buscava preencher algumas lacunas:
 
     Necessidade: Bridging the Gap (Ligar as Pontas): Havia uma necessidade por uma linguagem que fosse simples o suficiente para ser usada para scripting e tarefas rápidas, mas poderosa o suficiente para lidar com projetos grandes e complexos, integrando-se facilmente com outras linguagens (como C).
@@ -163,5 +162,5 @@ Eles podem se especializar em diversas áreas, como:
 
     Essa base em clareza, simplicidade e facilidade de uso é o que permitiu ao Python crescer de um projeto de hobby para se tornar uma das linguagens mais importantes e populares do mundo, especialmente nas áreas emergentes como Ciência de Dados e Inteligência Artificial.
 
-3 . Python | <Básico>
+#### 3 . Python | <Básico>
 
