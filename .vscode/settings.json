@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "cSpell.words": [
         "anos",
         "Digite",
@@ -8,4 +9,11 @@
         "salário",
         "tenho"
     ]
+=======
+    "python.testing.pytestArgs": [
+        "venv"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+>>>>>>> 40c014b45d09d430125caa9c70f39b8b83b7d20d
 }
